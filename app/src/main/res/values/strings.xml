@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EjemploAppFragmentosCompartidoUsaG46</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">FRAGMENTO CUENTA CLICK</string>
+    <string name="titulo_actividad1">ACTIVIDAD 1</string>
+    <string name="titulo_actividad2">Actividad 2</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="70dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtTituloFragCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/titulo_actividad2"
+        android:textColor="#0C8E11"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnActividad1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirActividad"
+        android:text="Button" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/contenedorFrag1"
+        android:name="co.gov.mintic.misiontic.ciclo4.usa.fragmentos.FragmentoContadorClick"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/layout_fragmento_contador_click" />
+
+</LinearLayout>
